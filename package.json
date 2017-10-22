@@ -1,0 +1,25 @@
+{
+  "name": "qiniu-uploader-atom",
+  "main": "./main",
+  "version": "0.0.0",
+  "description": "Upload local file to qiniu",
+  "keywords": [
+    "qiniu",
+    "uploader"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "qiniu-uploader-atom:upload-to-qiniu",
+      "qiniu-uploader-atom:upload-to-qiniu-from-clipboard"
+    ]
+  },
+  "repository": "https://github.com/devld/qiniu-uploader-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "qiniu": "^7.1.0"
+  }
+}
