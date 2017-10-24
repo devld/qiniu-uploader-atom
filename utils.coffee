@@ -22,7 +22,7 @@ module.exports =
 
     template = template.replace /{year}/g, date.getFullYear()
     template = template.replace /{month}/g, month
-    template = template.replace /{date}/g, day
+    template = template.replace /{day}/g, day
 
     template = template.replace /{hour}/g, hour
     template = template.replace /{minute}/g, minute
